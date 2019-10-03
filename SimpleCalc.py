@@ -4,13 +4,14 @@
 x = int(input("Please input your first number:"))
 y = int(input("Please input your second number:"))
 operation = input("Please indicate whether you want to add, subtract, multiply, or divide these numbers:")
-if (operation == "add"):
+upperOper = operation.upper()
+if (upperOper == "ADD"):
     result = x + y
-elif (operation == "subtract"): 
+elif (upperOper == "SUBTRACT"): 
     result = x - y
-elif (operation == "multiply"):
+elif (upperOper == "MULTIPLY"):
     result = x * y
-elif (operation == "divide"):
+elif (upperOper == "DIVIDE"):
     result = x / y
 print(result)
 
@@ -19,3 +20,4 @@ print(result)
 #Must figure out how to make it accept lowercase and uppercase
 #Use or statement? Is there another way to do this?
 #Or statement causes operations to ONLY add
+#If you make the input always uppercase, then you only have to set it to one string
