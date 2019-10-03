@@ -17,4 +17,5 @@ print(result)
 #Remember that ":"" goes after the if statement
 #Right now, when they input the operation, it must be in lowercase
 #Must figure out how to make it accept lowercase and uppercase
-#Use or statement? Is there another way to do this
+#Use or statement? Is there another way to do this?
+#Or statement causes operations to ONLY add
